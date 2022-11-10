@@ -20,7 +20,7 @@ const Authenticate = () => {
         aria-hidden="true"
       />
       {activePage && <Signin ChangePage={ChangePage} />}
-      {!activePage && <Signup ChangePage={ChangePage} />}
+      {/* {!activePage && <Signup ChangePage={ChangePage} />} */}
     </div>
   );
 };

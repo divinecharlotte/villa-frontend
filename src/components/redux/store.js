@@ -3,15 +3,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import authenticateSlice from '../authenticateSlice';
 
-// export const store = configureStore({
-//   reducer: {
-//     authforms: authenticateSlice,
-
-//   },
-
-// });
-// import React from 'react'
-
 const Store = configureStore({
   reducer: {
     authforms: authenticateSlice,
