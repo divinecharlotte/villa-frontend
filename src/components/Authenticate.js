@@ -4,7 +4,6 @@ import './signup/SignUp.css';
 import './signin/SignIn.css';
 import { HideForms } from './authenticateSlice';
 import Signin from './signin/SignIn';
-import Signup from './signup/SignUp';
 
 const Authenticate = () => {
   const dispatch = useDispatch();
