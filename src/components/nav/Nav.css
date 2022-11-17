@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  transition: 0.85s all ease;
+  background-color: white;
+  z-index: 10;
+  box-shadow: inset 0 0 20px 0 grey;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10%;
+  width: 85%;
+}
+.nav-item {
+  width: 100%;
+  height: 20%;
+  border: none;
+  font-size: 2.5rem;
+  padding: 8%;
+}
+.links-container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 6rem;
+}
+.links {
+  list-style: none;
+  color: grey;
+  font-size: 1.5rem;
+}
