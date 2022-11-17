@@ -9,7 +9,7 @@ import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 // import { GiHamburgerMenu } from 'react-icons/gi';
 import './Nav.css';
 
-const Nav = () => {
+const Nav = () =>
 
 //   const showHideNavbar = () => {
 //     if (window.innerWidth >= 768) {
@@ -27,38 +27,38 @@ const Nav = () => {
 //     navigate('/');
 //   };
 
-  return (
+  (
     <>
       <nav className="nav">
         {/* <img className="app-logo" src={logo} alt="" /> */}
         <div className="nav-items">
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/"> */}
-              Tours
+            Tours
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/reservations"> */}
-              My reservations
+            My reservations
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/reservation-form"> */}
-              Reserver Tour
+            Reserver Tour
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/create"> */}
-              Create Tour
+            Create Tour
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/delete"> */}
-              Delete Tour
+            Delete Tour
             {/* </NavLink> */}
           </button>
         </div>
-{/* 
+        {/*
         {user.length > 0 ? (
           <button
             type="button"
@@ -99,6 +99,4 @@ const Nav = () => {
       </nav>
     </>
   );
-};
-
 export default Nav;
