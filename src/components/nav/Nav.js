@@ -94,7 +94,7 @@ const Nav = () =>
               </a>
             </li>
           </ul>
-          <h1 className="heading">&#169; 2022 All rights reserved</h1>
+          <h2 className="heading">&#169; 2022 All rights reserved</h2>
         </div>
       </nav>
     </>
