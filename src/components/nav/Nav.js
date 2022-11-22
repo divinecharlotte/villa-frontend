@@ -34,7 +34,7 @@ const Nav = () =>
         <div className="nav-items">
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/"> */}
-            Tours
+            Villas
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
@@ -44,17 +44,17 @@ const Nav = () =>
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/reservation-form"> */}
-            Reserver Tour
+            Reserver a Villa
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/create"> */}
-            Create Tour
+            Create a Villa
             {/* </NavLink> */}
           </button>
           <button type="button" className="nav-item">
             {/* <NavLink onClick={showHideNavbar} to="/tours/delete"> */}
-            Delete Tour
+            Delete a Villa
             {/* </NavLink> */}
           </button>
         </div>
