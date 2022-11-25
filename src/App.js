@@ -4,7 +4,6 @@ import Home from './components/home/Home';
 import SignUp from './components/signup/SignUp';
 import SignIn from './components/signin/SignIn';
 import MainPage from './components/main/MainPage';
-import './App.css';
 
 const App = () => (
   <div className="App">
