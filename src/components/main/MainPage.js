@@ -11,10 +11,10 @@ const Main = () => (
     <Nav />
     Main
     <div className="mainPage">
-      <img src={villa2} alt="villa advert" />
-      <img src={villa6} alt="villa advert" />
-      <img src={villa5} alt="villa advert" />
-      <img src={villa4} alt="villa advert" />
+      <div className="image"><img src={villa2} alt="villa advert" /></div>
+      <div className="image"><img src={villa6} alt="villa advert" /></div>
+      <div className="image"><img src={villa5} alt="villa advert" /></div>
+      <div className="image"><img src={villa4} alt="villa advert" /></div>
     </div>
   </div>
 );
