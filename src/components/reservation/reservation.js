@@ -8,7 +8,7 @@ const Reservation = () => (
     <div className="reservation-background" />
     <div className="overlay" />
     <div className="reservation-content">
-      <h1 className="reservation-heading">Reservations</h1>
+      <h1 className="reservation-heading">Reserve a villa</h1>
 
       <form className="reservation-form" action="">
         <input
