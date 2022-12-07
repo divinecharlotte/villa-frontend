@@ -1,17 +1,17 @@
 import React from 'react';
 import './CreateVilla.css';
 
-const CreateTour = () => {
+const CreateVilla = () => {
 
 
   return (
-    <div className="tour-content">
+    <div className="villa-content">
       <h1>CREATE A VILLA</h1>
-      <form className="TourForm">
+      <form className="villaForm">
         <div className="form-column">
           <input
             type="text"
-            placeholder="Tour Title"
+            placeholder="villa Title"
             required
           />
           <input
@@ -44,8 +44,8 @@ const CreateTour = () => {
             />
           </div>
           <div>
-            <button className="add-tour-btn" type="submit" value="add-tour">
-              Create Tour
+            <button className="add-villa-btn" type="submit" value="add-villa">
+              Create Villa
             </button>
           </div>
         </div>
@@ -54,4 +54,4 @@ const CreateTour = () => {
   );
 };
 
-export default CreateTour;
+export default CreateVilla;

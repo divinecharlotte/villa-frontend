@@ -1,0 +1,121 @@
+.villa-content {
+  background-color: #e9d8c9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  z-index: 14;
+  margin-left: 30%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.villa-content p {
+  text-align: center;
+  color: black;
+}
+
+.villa-content h1 {
+  color: black;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  border-bottom: 1px solid rgb(247 247 248 / 0.3);
+  padding: 20px 50px;
+}
+
+.column-rigth {
+  justify-content: space-between;
+}
+
+.villaForm {
+  display: flex;
+  justify-content: space-around;
+  row-gap: 10px;
+}
+
+.villaForm .form-column,
+.villaForm .column-rigth {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.column-rigth div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.villaForm input,
+.villaForm textarea,
+.villaForm button {
+  padding: 2%;
+  margin-left: 5%;
+  border-radius: 20px;
+  color: black;
+  border: solid white 1px;
+  background-color: #e9d8c9;
+  font-weight: bolder;
+}
+
+.villaForm textarea {
+  height: 100px;
+}
+
+.villaForm button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+
+.form-column textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.form-column textarea::-webkit-resizer {
+  display: none;
+}
+
+.villaForm input:hover,
+.VillaForm textarea:hover,
+.VillaForm button:hover {
+  border: 2px solid white;
+  box-shadow: inset 0 0 15px 0 #e9d8c9;
+}
+
+.VillaForm input:focus,
+.VillaForm textarea:focus,
+.VillaForm button:focus {
+  outline: none;
+}
+
+.VillaForm *::placeholder {
+  font-style: italic;
+  font-weight: 200;
+  color: black;
+}
+
+.add-villa-btn {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .villa-content {
+    width: 100%;
+    margin-left: 0;
+    z-index: 9;
+  }
+
+  .VillaForm {
+    flex-direction: column;
+  }
+
+  .villa-content h1 {
+    letter-spacing: 0.3em;
+  }
+}
