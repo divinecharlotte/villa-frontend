@@ -5,7 +5,7 @@ import SignUp from './components/signup/SignUp';
 import SignIn from './components/signin/SignIn';
 import MainPage from './components/main/MainPage';
 import Reservation from './components/reservation/reservation';
-import CreateVilla from './components/create/CreateVilla'
+import CreateVilla from './components/create/CreateVilla';
 
 const App = () => (
   <div className="App">
