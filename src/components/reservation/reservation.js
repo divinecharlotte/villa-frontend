@@ -3,14 +3,27 @@ import { FiSettings } from 'react-icons/fi';
 import { AiFillRightCircle } from 'react-icons/ai';
 import './reservation.css';
 
-const Reservation = () => (
+const Reservation = () => {
+
+
+  const Reserve = (e) => {
+    e.preventDefault();
+    if (value.tour_id > 0 && userStore.length > 0) {
+      dispatch(PostReservationsAPI(value, userStore[0].token));
+      navigate('/tours/reservations');
+    } else {
+      // eslint-disable-next-line
+      alert('Please select a tour');
+    }
+  };
+
   <div className="reservations-container">
     <div className="reservation-background" />
     <div className="overlay" />
     <div className="reservation-content">
       <h1 className="reservation-heading">Reserve a villa</h1>
 
-      <form className="reservation-form" action="">
+      <form onSubmit={Reserve} className="reservation-form" action="">
         <input
           type="date"
           aria-label="Date"
@@ -49,6 +62,6 @@ const Reservation = () => (
       </button>
     </div>
   </div>
-);
+};
 
 export default Reservation;
