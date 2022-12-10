@@ -4,7 +4,7 @@ import Home from './components/home/Home';
 import SignUp from './components/signup/SignUp';
 import SignIn from './components/signin/SignIn';
 import MainPage from './components/main/MainPage';
-import Reservation from './components/reservation/reservation';
+import Reservation from './components/reservation/Reservation';
 import CreateVilla from './components/create/CreateVilla';
 import Delete from './components/delete/Delete';
 
