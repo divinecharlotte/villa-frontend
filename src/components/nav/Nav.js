@@ -1,8 +1,5 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable implicit-arrow-linebreak */
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaAngellist } from 'react-icons/fa';
 import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 // import { GrClose } from 'react-icons/gr';
@@ -30,32 +27,31 @@ const Nav = () =>
   (
     <>
       <nav className="nav">
-        {/* <img className="app-logo" src={logo} alt="" /> */}
         <div className="nav-items">
           <button type="button" className="nav-item">
-            {/* <NavLink onClick={showHideNavbar} to="/"> */}
+            <NavLink to="/MainPage">
             Villas
-            {/* </NavLink> */}
+            </NavLink>
           </button>
           <button type="button" className="nav-item">
-            {/* <NavLink onClick={showHideNavbar} to="/tours/reservations"> */}
+            <NavLink to="/Reservation">
             My reservations
-            {/* </NavLink> */}
+            </NavLink>
           </button>
           <button type="button" className="nav-item">
-            {/* <NavLink onClick={showHideNavbar} to="/tours/reservation-form"> */}
+            <NavLink to="/Reservation">
             Reserver a Villa
-            {/* </NavLink> */}
+            </NavLink>
           </button>
           <button type="button" className="nav-item">
-            {/* <NavLink onClick={showHideNavbar} to="/tours/create"> */}
+            <NavLink  to="/CreateVilla ">
             Create a Villa
-            {/* </NavLink> */}
+            </NavLink>
           </button>
           <button type="button" className="nav-item">
-            {/* <NavLink onClick={showHideNavbar} to="/tours/delete"> */}
+            <NavLink to="/Delete">
             Delete a Villa
-            {/* </NavLink> */}
+            </NavLink>
           </button>
         </div>
         {/*
